@@ -1,0 +1,155 @@
+<app-header></app-header>
+<div class="testbox" id="personaldetail">
+
+    <form action="/">
+
+        <div class="banner">
+
+            <h3>PERSONAL DETAILS</h3>
+
+        </div>
+
+        <div class="colums">
+
+            <div class="item">
+
+                <label for="fname"> First Name<span>*</span></label>
+
+                <input id="fname" type="text" name="fname" placeholder="Ex: John" required pattern="[a-zA-z][a-zA-Z ]+" />
+
+            </div>
+
+            <div class="item">
+
+                <label for="lname"> Last Name<span>*</span></label>
+
+                <input id="lname" type="text" name="lname" placeholder="Ex: Weasely" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="eaddress">Email Address<span>*</span></label>
+
+                <input id="eaddress" type="mail" name="eaddress" placeholder="Ex: name@mail.com" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="phone">Phone<span>*</span></label>
+
+                <input id="phone" type="number" name="phone" placeholder="Ex: 9876543210" maxlength="10" minlength="1" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="address1">Flat No. / Name<span>*</span></label>
+
+                <input id="address1" type="text" name="address1" placeholder="Type here" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="address2">Street Name<span>*</span></label>
+
+                <input id="address2" type="text" name="address2" placeholder="Type here" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="city">City<span>*</span></label>
+
+                <input id="city" type="text" name="city" placeholder="Ex:Chennai" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="state">State<span>*</span></label>
+
+                <input id="state" type="text" name="state" placeholder="Ex: Tamil Nadu" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="zip">Zip/Postal Code<span>*</span></label>
+
+                <input id="zip" type="number" name="zip" placeholder="Ex: 600 001" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="dob">Date Of Birth<span>*</span></label>
+
+                <input id="dob" type="date" name="dob" placeholder="none" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="aad">Aadhar Number<span>*</span></label>
+
+                <input id="aad" type="number" name="aad" placeholder="xxxx-xxxx-xxxx-xxxx" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="pan">Pan Number<span>*</span></label>
+
+                <input id="pan" type="text" name="pan" placeholder="Ex:A123B45" required/>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="question">
+
+            <label>Is permanent address same as current address</label>
+
+            <div class="question-answer">
+
+                <div>
+
+                    <input type="radio" value="none" id="radio_1" name="type" />
+
+                    <label for="radio_1" class="radio"><span>Yes</span></label>
+
+                </div>
+
+                <div>
+
+                    <input type="radio" value="none" id="radio_2" name="type" />
+
+                    <label for="radio_2" class="radio"><span>No</span></label>
+
+                </div>
+
+                <div class="btn-block">
+
+                    <button type="submit" (click)="edupage()">NEXT
+  
+              <router-outlet></router-outlet>
+  
+            </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </form>
+
+</div>
+<app-footer></app-footer>

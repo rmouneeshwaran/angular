@@ -1,0 +1,47 @@
+.topnav {
+    padding: 5px;
+    background: linear-gradient(to right, rgb(209, 209, 248), #f8a4c6);
+    height: 50px;
+    top: 0;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.topnav button {
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.button-left {
+    border-radius: 2mm;
+    padding: 10px 10px;
+    border: none;
+    font-size: 70%;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 80mm;
+    margin-right: 10mm;
+    margin-bottom: 20mm;
+    background: transparent;
+}
+
+.button-right {
+    border-radius: 2mm;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-large;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 90mm;
+    margin-right: 10mm;
+    margin-bottom: 20mm;
+    background: transparent;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+}

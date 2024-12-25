@@ -1,0 +1,104 @@
+form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: rgba(219, 212, 212, 0.884);
+    box-shadow: 0 0 8px #8ae2e2;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 10px;
+}
+
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+    background: rgba(124, 125, 126, 0.897);
+}
+
+.tacbox {
+    display: block;
+    padding: 10px;
+    border: 3px solid #ddd;
+    background-color: #eee;
+    width: 90%;
+    margin-left: 1px;
+}
+
+input {
+    height: 1em;
+    width: 2em;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #ececec;
+    overflow: hidden;
+}
+
+.signature-pad {
+    min-height: 200px;
+    border: 1px solid#000;
+    cursor: progress;
+    margin-left: 10%;
+    margin-top: 80%;
+}
+
+canvas#signature-pad {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: crosshair;
+}
+
+button#clear {
+    background: palevioletred;
+    color: #fffd;
+    cursor: pointer;
+    margin-left: 1.4%;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    width: 70px;
+}
+
+button#upload {
+    background: palevioletred;
+    color: #fffd;
+    cursor: pointer;
+    margin-left: 1.4%;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    width: 80px;
+    padding-right: 2px;
+    text-align: left;
+}
+
+input[type=file] {
+    padding: 20px;
+    width: 80%;
+    height: 80px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 90%;
+    margin-top: 1%;
+}

@@ -1,0 +1,132 @@
+<app-header></app-header>
+<div class="testbox">
+
+    <form action="/">
+
+        <div class="banner">
+
+            <h3>EDUCATIONAL DETAILS</h3>
+
+        </div>
+
+
+
+        <div class="colums">
+
+
+
+            <div class="item">
+
+                HIGHEST EDUCATION<span>*</span> <br>
+
+                <select name="high">
+
+                <option values="blank"></option>
+
+                <option values="Phd">Phd</option>
+
+                <option values="pg">Post Graduation</option>
+
+                <option values="ug">Under Graduation</option>
+
+                <option values="dip">Diploma</option>
+
+                <option values="12">Higher Secondary</option>
+
+            </select><br>
+
+            </div>
+
+            <div class="item">
+
+                <label for="sslc"> SSLC Percentile<span>*</span></label>
+
+                <input id="sslc" type="number" name="sslc" placeholder="Ex: 98" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="hsc"> HSC Group<span>*</span></label>
+
+                <input id="hsc" type="text" name="hsc" placeholder="Ex: CSC" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="hsc"> HSC Percentile<span>*</span></label>
+
+                <input id="hsc" type="number" name="hsc" placeholder="Ex: 98" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="ug">UG Stream<span>*</span></label>
+
+                <input id="ug" type="text" name="ug" placeholder="Ex: CSC" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="ug">UG Percentile<span>*</span></label>
+
+                <input id="ug" type="number" name="ug" placeholder="Ex: 98" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="pg">PG Stream<span>*</span></label>
+
+                <input id="pg" type="text" name="pg" placeholder="Ex: CSC" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label for="pg">PG Percentile<span>*</span></label>
+
+                <input id="pg" type="number" name="pg" placeholder="Ex: 98" required/>
+
+            </div>
+
+            <div class="item">
+
+                <label>UPLOAD THE NECESSARY DOCUMENTS <span>*</span><br>
+
+                <input type="file"  size="200" required/>
+
+            </label>
+
+            </div>
+
+        </div>
+
+        <div class="prev">
+
+            <label><button type="submit" (click)="tcpage()"> NEXT
+
+              <router-outlet></router-outlet>
+
+            </button>
+
+        </label>
+
+        </div>
+
+        <div class="nex">
+
+            <label> <button type="submit" (click)="formpage()">PREVIOUS
+        <router-outlet></router-outlet>
+
+    </button></label>
+
+        </div>
+
+    </form>
+
+</div>
+<app-footer></app-footer>

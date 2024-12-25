@@ -1,0 +1,138 @@
+<app-header>
+</app-header>
+<section class="job-list" id="jobs">
+    <div class="job-card">
+
+        <div class="job-name">
+
+            <img [src]="joblogo4" class="job-profile"  alt="">
+
+            <div class="job-detail">
+
+                <h4>Accenture</h4>
+                <h3>Intern Software Developer</h3>
+
+                <img [src]="icon1">
+                <p class="location"> Chennai, Tamil Nadu. </p>
+
+            </div>
+
+        </div>
+
+        <div class="job-label">
+
+            <button type="button" class="btn btn-primary" id="an4" (click)="details()">Job Details
+            </button>
+
+        </div>
+
+        <div class="job-posted">
+            Posted 2 mins ago
+
+        </div>
+
+    </div>
+
+
+
+    <div class="job-card">
+
+        <div class="job-name">
+            <img [src]="joblogo2" class="job-profile"  alt="">
+            <div class="job-detail">
+
+                <h4>Google</h4>
+                <h3>Software Engineer</h3>
+
+                <img [src]="icon1">
+                <p class="location">Mountain View, California, United States.</p>
+            </div>
+
+        </div>
+
+        <div class="job-label">
+
+            <button type="button" class="btn btn-primary" id="an2" (click)="details()">Job Details
+                <router-outlet></router-outlet> 
+            </button>
+        </div>
+        <div class="job-posted">
+
+            Posted 2 mins ago
+
+        </div>
+
+    </div>
+
+
+    <div class="job-card">
+
+        <div class="job-name">
+
+            <img [src]="joblogo3" class="job-profile"  alt="">
+            <div class="job-detail">
+
+                <h4>Zoho</h4>
+
+                <h3>Business Development</h3>
+                <img [src]="icon1">
+                <p class="location">Chennai, Tamil Nadu.</p>
+
+            </div>
+
+        </div>
+
+        <div class="job-label">
+
+            <button type="button" class="btn btn-primary" id="an3" (click)="details()">Job Details
+             <router-outlet></router-outlet>   
+            </button>
+
+        </div>
+
+        <div class="job-posted">
+
+            Posted 2 mins ago
+
+        </div>
+
+    </div>
+
+
+    <div class="job-card">
+
+        <div class="job-name">
+
+            <img [src]="joblogo1" class="job-profile" alt="">
+
+            <div class="job-detail">
+
+                <h4>Tesla</h4>
+
+                <h3>Automobile Engineer</h3>
+
+                <img [src]="icon1">
+                <p class="location">New York, USA.</p>
+
+            </div>
+
+        </div>
+
+        <div class="job-label">
+            <button type="button" class="btn btn-primary" id="an1" (click)="details()">Job Details
+                <router-outlet></router-outlet> 
+            </button>
+
+        </div>
+        <div class="job-posted">
+
+            Posted 2 mins ago
+
+        </div>
+
+
+
+    </div>
+
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,55 @@
+<br>
+<br>
+<section id="mainpage">
+    <div class="container">
+        <div class="row">
+            <div class="col col-xl-10">
+                <div class="card">
+                    <div class="row g-0" id="logo-row">
+                        <div class="col-md-6 col-lg-5 d-none d-md-block">
+                            <img [src]="img" class="img-fluid">
+                        </div>
+                        <div class="col-md-6 col-lg-7" id="column1">
+                            <div class="card-body">
+                                <form>
+                                    <div class="d-flex align-items-center mb-3 pb-1">
+                                        <img [src]="img2" class="logo">
+                                        <span class="h1 mb-0">Welcome To JAAM</span>
+                                    </div>
+
+                                    <h5 class=" mb-3 pb-3" style="letter-spacing: 1px;">Do You Want To?
+                                    </h5>
+
+                                    <div class="form-outline mb-4">
+                                    </div>
+                                    <div class="form-outline mb-4">
+                                        <button type="button" class="btn btn-primary" (click)="job()" style="--bs-btn-padding-y: .50rem; --bs-btn-padding-x: 7.5rem;">
+                                            Post for a job
+                                            <router-outlet></router-outlet>
+                                        </button>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <button type="button" class="btn btn-primary" (click)="admin()" style="--bs-btn-padding-y: .50rem; --bs-btn-padding-x: 9rem;">
+                                            Admin
+                                            <router-outlet></router-outlet>
+                                        </button>
+                                    </div>
+                                    <footer>
+                                        <a href="https://www.linkedin.com/company/linkedin/?originalSubdomain=in" class="fa fa-linkedin"></a>
+                                        <a href="https://www.bing.com/search?q=twitter&cvid=7fe74f1559a4452680f0dee7175a3ac9&aqs=edge.0.46j69i57j0l7j69i11004.2035j0j4&FORM=ANAB01&PC=U531" class="fa fa-twitter"></a>
+                                        <a href="https://www.bing.com/search?q=insta&cvid=d53955bfebb44d7d9f46dc031a36534f&aqs=edge..69i57j46j0l6j1001i1002i11002j69i11004.2367j0j9&FORM=ANAB01&PC=U531" class="fa fa-instagram"></a><br>
+
+
+                                        <p style="font-size: x-small;">© Copyright 2021 || JAAM</p>
+
+                                    </footer>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

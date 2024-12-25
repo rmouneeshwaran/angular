@@ -1,0 +1,372 @@
+<!-- Navigation Bar -->
+<header id="header">
+    <nav>
+        <div class="logo"><img src="assets/images/icon/JAAMLOGO.png" alt="logo"></div>
+        <ul>
+            <li><a href=" " ngClass="btn">Home</a></li>
+            <li><a href="#portfolio_section">Portfolio</a></li>
+            <li><a href="#team_section">Team</a></li>
+            <li><a href="#services_section">Services</a></li>
+            <li><a href="#contactus_section">Contact</a></li>
+        </ul>
+        <div class="srch"><input type="text" class="search" placeholder="Search here..."><img style="-webkit-filter: hue-rotate(180deg);
+            filter: hue-rotate(250deg);" src="assets/images/icon/search.png" alt="search" onclick=slide()></div>
+
+    </nav>
+</header>
+<div class="head-container">
+    <div class="quote">
+        <p>When you have a dream, you've got to grab it and never let go</p>
+        <h5>"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do." - Steve Jobs.
+        </h5>
+
+    </div>
+    <div class="svg-image">
+        <img src="assets/images/extra/svg1.jpg" alt="svg">
+    </div>
+
+</div>
+<a class="get-startedp" routerLink="/seeker">GET STARTED</a>
+<!-- Some Popular Subjects -->
+<br><br>
+<div class="title">
+    <p style="font-size: 30px; padding: 100px; padding-bottom: 40px; font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #2E3D49;">Popular Companies on JAAM</p>
+</div>
+<section>
+    <div class="course">
+        <div class="cbox" style="text-align: center;">
+            <div class="det">
+                <a href="https://www.aboutamazon.com/" target="_blank"><img src="assets/images/courses/amazon.png">Amazon</a>
+            </div>
+            <div class="det">
+                <a href="https://about.google/" target="_blank"><img src="assets/images/courses/google.png">Google</a>
+            </div>
+            <div class="det">
+                <a href="https://www.microsoft.com/en-in/about/" target="_blank"><img src="assets/images/courses/ms.png">Microsoft</a>
+            </div>
+            <div class="det">
+                <a href="https://www.apple.com/" target="_blank"><img src="assets/images/courses/apple.png">Apple</a>
+            </div>
+        </div>
+        <div class="cbox" style="text-align: center;">
+            <div class="det">
+                <a href="https://www.tcs.com/who-we-are" target="_blank"><img src="assets/images/courses/tcs.png">TCS</a>
+            </div>
+            <div class="det">
+                <a href="https://www.cognizant.com/us/en/about-cognizant" target="_blank"><img src="assets/images/courses/cog.png">Cognizant</a>
+            </div>
+            <div class="det">
+                <a href="https://www.prodapt.com/" target="_blank"><img src="assets/images/courses/pr.png">Prodapt</a>
+            </div>
+            <div class="det">
+                <a href="https://www.wipro.com/about-us/" target="_blank"><img src="assets/images/courses/wip.png">Wipro</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<br>
+<br>
+
+
+
+<!-- PORTFOLIO -->
+<div class="diffSection" id="portfolio_section" style="text-align: center;">
+    <p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Portfolio</p>
+    <div class="content">
+        <p>
+            “Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.” “The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't
+            settle.”“When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us.”
+        </p>
+    </div>
+</div>
+<div class="extra">
+
+    <p [ngStyle]="portimg()">We're increasing the jobs every year</p>
+    <div class="smbox" style="text-align: center;">
+        <span>
+            <div class="data">5000+</div>
+            <div class="det">Enrolled Candidates</div>
+        </span>
+        <span>
+            <div class="data">3000+</div>
+            <div class="det">Total Jobs</div>
+        </span>
+        <span>
+            <div class="data">1000+</div>
+            <div class="det">Placed Candidates</div>
+        </span>
+        <span>
+            <div class="data">1500+</div>
+            <div class="det">Total Internships</div>
+        </span>
+    </div>
+</div>
+
+
+<!-- TEAM -->
+<div class="team" id="team_section" style="text-align: center;">
+    <div class="creator">
+        <p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p>
+    </div>
+    <div class="totalcard">
+        <div class="card" style="text-align: center;">
+            <div class="centerimg"><img src="assets/images/creator/mouneesh.jpg"></div>
+            <div class="card-title" style="text-align: center;">Mouneeshwaran</div>
+            <div id="detail">
+                <p>Associate Software Engineer</p>
+                <p>PRODAPT</p>
+                <div class="duty"></div>
+                <a href="https://www.linkedin.com/in/mouneesh-rj-a657ba1b5/" target="_blank"><button
+                        class="btn-roshan">Follow +</button></a>
+            </div>
+        </div>
+        <div class="card" style="text-align: center;">
+            <div class="centerimg"><img src="assets/images/creator/abitha.png"></div>
+            <div class="card-title" style="text-align: center;">Abitha</div>
+            <div id="detail">
+                <p>Associate Software Engineer</p>
+                <p>PRODAPT</p>
+                <div class="duty"></div>
+                <a href="#" target="_blank"><button
+                        class="btn-roshan">Follow +</button></a>
+            </div>
+        </div>
+        <div class="card" style="text-align: center;">
+            <div class="centerimg"><img src="assets/images/creator/akshaya.jpg"></div>
+            <div class="card-title" style="text-align: center;">Akshaya</div>
+            <div id="detail">
+                <p>Associate Software Engineer</p>
+                <p>PRODAPT</p>
+                <div class="duty"></div>
+                <a href="https://www.linkedin.com/in/akshaya-m-41a877216/" target="_blank"><button
+                        class="btn-roshan">Follow +</button></a>
+            </div>
+        </div>
+        <div class="card" style="text-align: center;">
+            <div class="centerimg"><img src="assets/images/creator/John.png"></div>
+            <div class="card-title" style="text-align: center;">John</div>
+            <div id="detail">
+                <p>Associate Software Engineer</p>
+                <p>PRODAPT</p>
+                <div class="duty"></div>
+                <a href="#" target="_blank"><button
+                        class="btn-roshan">Follow +</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    -
+</div>
+
+
+<!-- SERVICES -->
+<div class="service-swipe" [ngStyle]="serimg()">
+
+    <div class="diffSection" id="services_section" style="text-align: center;">
+        <p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p>
+    </div>
+    <a href="subjects/computer_courses.html">
+        <div class="s-card"><img src="assets/images/icon/computer-courses.png">
+            <p>Design & Development</p>
+        </div>
+    </a>
+    <a href="subjects/jee.html">
+        <div class="s-card"><img src="assets/images/icon/brainbooster.png">
+            <p>Sales & Marketing</p>
+        </div>
+    </a>
+    <a href="#">
+        <div class="s-card"><img src="assets/images/icon/online-tutorials.png">
+            <p>Mobile Application</p>
+        </div>
+    </a>
+    <a href="subjects/jee.html#sample_papers">
+        <div class="s-card"><img src="assets/images/icon/papers.jpg">
+            <p>Construction</p>
+        </div>
+    </a>
+    <a href="#">
+        <div class="s-card"><img src="assets/images/icon/p3.png">
+            <p>Information Technology</p>
+        </div>
+    </a>
+    <a href="#contactus_section">
+        <div class="s-card"><img src="assets/images/icon/discussion.png">
+            <p>Real Estate</p>
+        </div>
+    </a>
+    <a href="subjects/quiz.html">
+        <div class="s-card"><img src="assets/images/icon/q1.png">
+            <p>Content Writer</p>
+        </div>
+    </a>
+    <a href="#contactus_section">
+        <div class="s-card"><img src="assets/images/icon/help.png">
+            <p>24x7 Online Support</p>
+        </div>
+    </a>
+</div>
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+    <a href="#review_section"><img style="-webkit-filter: hue-rotate(180deg);
+        filter: hue-rotate(250deg);" src="assets/images/icon/makeitfull.png"></a>
+</div>
+<div class="review">
+    <div class="diffSection" id="review_section" style="text-align: center;">
+        <p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Candidates Say About Us?
+        </p>
+    </div>
+    <div class="rev-container">
+        <div class="rev-card">
+            <div class="identity">
+                <img src="assets/images/creator/humanNotExist1.jpg">
+                <p>Keerthana</p>
+                <h6>Java Developer</h6>
+                <div class="rating"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"></div>
+            </div>
+            <div class="rev-cont">
+                <p id="title">Review:</p>
+                <p id="content">
+                    I did Java Fundamenetal course with Rishab Sir. It was a great experience. The brain teasers and assignments, actually the whole lot of content was really good. Some problems were challenging yet interesting. Was explained very well where ever I stuck...
+                </p>
+            </div>
+        </div>
+        <div class="rev-card">
+            <div class="identity">
+                <img src="assets/images/creator/humanNotExist2.jpg">
+                <p>Jerrald</p>
+                <h6>DevOps</h6>
+                <div class="rating"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"></div>
+            </div>
+            <div class="rev-cont">
+                <p id="title">Review:</p>
+                <p id="content">
+                    When I was watching "Dear Zindagi", I could relate Sharukh Khan to Arnav Bhaiya. The way Sharukh Khan was giving life lessons to Alia Bhatt, in the same way Arnav Bhaiya will give coding life lessons which will guide you throughout your code life...
+                </p>
+            </div>
+        </div>
+        <div class="rev-card">
+
+            <div class="identity">
+                <img src="assets/images/creator/humanNotExist3.jpg">
+                <p>Karthik</p>
+                <h6>UI/UX Designer</h6>
+                <div class="rating"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"></div>
+            </div>
+            <div class="rev-cont">
+                <p id="title">Review:</p>
+                <p id="content">
+                    LearnEd was an amazing experience for me. I belong to electronics department and had a little experience in coding but I think it has helped me think things through in a much more analytical manner. Coding is important no matter which branch you are in.
+                    It gives you a better understanding about how to approach a problem...
+                </p>
+            </div>
+        </div>
+        <div class="rev-card">
+            <div class="identity">
+                <img src="assets/images/creator/humanNotExist4.jpg">
+                <p>Ashni</p>
+                <h6>Full stack Developer</h6>
+                <div class="rating"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"></div>
+            </div>
+            <div class="rev-cont">
+                <p id="title">Review:</p>
+                <p id="content">
+                    This was my first complete course at coding blocks. I attended the Python course in Winter 2020 and loved it which made me join the full course. Shubham bhaiya and Ayush Bhaiya(TA) have good knowledge about the field and were very helpful in making us
+                    understand the concepts. I would certainly recommend this to anyone...
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT US -->
+<div class="contact" id="contactus_section">
+    <p style="font-size: 50px; text-align: center; padding: 100px">Contact Us</p>
+    <div class="csec"></div>
+    <div class="back-contact">
+        <div class="cc">
+            <form action="mailto:mouneesh13012001@gmail.com" method="post" enctype="text/plain">
+                <label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span
+                        class="imp">*</span></label><br>
+                <div style="text-align: center;">
+                    <input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+                </div>
+                <label>Email <span class="imp">*</span></label><br>
+                <input type="email" name="mail" style="width: 100%" required="required"><br>
+                <label>Message <span class="imp">*</span></label><br>
+                <input type="text" name="message" style="width: 100%" required="required"><br>
+                <label>Additional Details</label><br>
+                <textarea name="addtional"></textarea><br>
+                <button type="submit" id="csubmit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- FEEDBACK -->
+<div class="title2" id="feedBACK">
+    <span>Give Feedback</span>
+    <div class="shortdesc2">
+        <p>Please share your valuable feedback to us</p>
+    </div>
+</div>
+
+<div class="feedbox" [ngStyle]="contactimg()">
+
+    <div class="feed">
+        <form action="mailto:ashnishinnu@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name</label><br>
+            <input type="text" name="" class="fname" required="required"><br>
+            <label>Email</label><br>
+            <input type="email" name="mail" required="required"><br>
+            <label>Additional Details</label><br>
+            <textarea name="addtional"></textarea><br>
+            <button type="submit" id="csubmit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<!-- Sliding Information -->
+<marquee style="background: linear-gradient(to right, blue, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20">
+    <div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated
+        is the one who has learned how to learn …and change.”</div>
+</marquee>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+            <img src="assets/images/icon/logo.png" style="width: 200px;">
+            <div class="logo"></div>
+            <div class="social-media">
+                <a href="#"><img src="assets/images/icon\fb.png"></a>
+                <a href="#"><img src="assets/images/icon\insta.png"></a>
+                <a href="#"><img src="assets/images/icon\tt.png"></a>
+                <a href="#"><img src="assets/images/icon\ytube.png"></a>
+                <a href="#"><img src="assets/images/icon\linkedin.png"></a>
+            </div><br><br>
+            <p class="rights-text">Copyright © 2022 Created By Mouneeshwaran,Jhon,Akshaya,Abitha All Rights Reserved.</p>
+            <br>
+            <p><img src="assets/images/icon/location.png"> Prodapt<br>Guindy,Chennai,600044</p><br>
+            <p><img src="assets/images/icon/phone.png"> +91-8903985371<br><img src="assets/images/icon/mail.png">&nbsp; jaamjobs@gmail.com
+            </p>
+        </div>
+        <div class="right-col">
+            <h1 style="color: #fff">Our Newsletter</h1>
+            <div class="border"></div><br>
+            <p>Enter Your Email to get our News and updates.</p>
+            <form class="newsletter-form">
+                <input class="txtb" type="email" placeholder="Enter Your Email">
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</footer>
